@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">137484590327</string>
+    <string name="google_api_key" translatable="false">AIzaSyAJm7xmo8Z-PNbqhoyDU8IT9YxSFpRu6EQ</string>
+    <string name="google_app_id" translatable="false">1:137484590327:android:9a90bf3fbcd81e69fe47f2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAJm7xmo8Z-PNbqhoyDU8IT9YxSFpRu6EQ</string>
+    <string name="google_storage_bucket" translatable="false">newsapp-74b1e.firebasestorage.app</string>
+    <string name="project_id" translatable="false">newsapp-74b1e</string>
+</resources>

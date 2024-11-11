@@ -1,0 +1,37 @@
+plugins {
+    id "com.android.application"
+    // START: FlutterFire Configuration
+    id 'com.google.gms.google-services'
+    // END: FlutterFire Configuration
+    id "kotlin-android"
+    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    compileSdkVersion 34 // Use your required SDK version
+    namespace "com.example.news_app"
+    defaultConfig {
+        applicationId "com.example.news_app" // Your application ID
+        minSdkVersion 23 // Minimum SDK version
+        //noinspection EditedTargetSdkVersion,ExpiredTargetSdkVersion
+        targetSdkVersion 34 // Use your required SDK version
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17 // or VERSION_1_8 for Java 1.8
+        targetCompatibility JavaVersion.VERSION_17 // or VERSION_1_8 for Java 1.8
+    }
+
+    kotlinOptions {
+        jvmTarget = "17" // Change this to "1.8" if using Java 1.8
+    }
+
+}
+
+
+flutter {
+    source = "../.."
+}
